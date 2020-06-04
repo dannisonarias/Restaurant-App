@@ -1,0 +1,10 @@
+$body-color: red;
+
+.menu {
+    width: 200px;
+    height: 200px;
+    background-color: $body-color;
+    p{
+        color: blue;
+    }
+}

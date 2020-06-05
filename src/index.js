@@ -16,10 +16,21 @@ const display = (() => {
     main2.innerHTML = '';
   };
 
+  const evalutate = (element) => {
+    if (element === 'home') {
+      return home;
+    }
+    if (element === 'menu') {
+      return menu;
+    }
+
+    return about;
+  };
+
   const renderDom = () => {
     clearContent();
     const element = event.target.innerHTML.toLowerCase();
-    main2.appendChild(eval(element));
+    main2.appendChild(evalutate(element));
   };
 
   const renderHome = () => {
@@ -28,7 +39,7 @@ const display = (() => {
 
   const clickListeners = () => {
     const aTags = document.getElementsByTagName('a');
-    for (let i = 0; i < aTags.length; i++) {
+    for (let i = 0; i < aTags.length; i += 1) {
       aTags[i].addEventListener('click', renderDom, false);
     }
   };

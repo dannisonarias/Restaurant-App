@@ -19,7 +19,6 @@ const display = (() => {
     const renderDom = () => {
         clearContent()
         const element = event.target.innerHTML.toLowerCase()
-        console.log()
         main2.appendChild(eval(element))
     }
     

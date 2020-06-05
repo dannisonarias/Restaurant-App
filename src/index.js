@@ -10,37 +10,30 @@ window.about = about;
 
 
 const display = (() => {
-    const main2 = document.querySelector("#content2")
+  const main2 = document.querySelector('#content2');
 
-    const clearContent = () => {
-        main2.innerHTML = ''
-    }
+  const clearContent = () => {
+    main2.innerHTML = '';
+  };
 
-    const renderDom = () => {
-        clearContent()
-        const element = event.target.innerHTML.toLowerCase()
-        main2.appendChild(eval(element))
-    }
+  const renderDom = () => {
+    clearContent();
+    const element = event.target.innerHTML.toLowerCase();
+    main2.appendChild(eval(element));
+  };
 
-    const renderHome = () => {
-        main2.appendChild(home)
-    }
+  const renderHome = () => {
+    main2.appendChild(home);
+  };
 
-    const clickListeners = () => {
-        const aTags = document.getElementsByTagName("a");
-        for (let i = 0; i < aTags.length; i++) {
-            aTags[i].addEventListener("click", renderDom, false)
-        };
+  const clickListeners = () => {
+    const aTags = document.getElementsByTagName('a');
+    for (let i = 0; i < aTags.length; i++) {
+      aTags[i].addEventListener('click', renderDom, false);
     }
-    clearContent()
-    renderHome()
-    navigationbar.createNav()
-    clickListeners()
+  };
+  clearContent();
+  renderHome();
+  navigationbar.createNav();
+  clickListeners();
 })();
-
-
-
-
-
-
-

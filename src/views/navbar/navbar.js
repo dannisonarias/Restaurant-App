@@ -18,5 +18,5 @@ const createNav = () => {
     main.prepend(nav)
 };
 
-const navigationbar = createNav()
+const navigationbar = {createNav}
 export default navigationbar

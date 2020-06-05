@@ -9,7 +9,7 @@ window.menu = menu;
 window.about = about;
 
 
-const display = (() => {
+const display = () => {
   const main2 = document.querySelector('#content2');
 
   const clearContent = () => {
@@ -47,4 +47,6 @@ const display = (() => {
   renderHome();
   navigationbar.createNav();
   clickListeners();
-})();
+};
+
+display();

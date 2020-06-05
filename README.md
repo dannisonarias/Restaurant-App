@@ -1,7 +1,7 @@
 # Restaurant-App
-Restaurant App built with Javascript, using the Webpack library.
+Restaurant App built using Tabbed navigations. Tabbed navigations are very useful when you need to organize a considerable amount of side content. It's very common to use tabs in a product page, for information like delivery options, product material info etc. Another use of tabs is in dashboards, where users need a quick way to switch from one panel to the other.
 # Screenshot
-![sample](Capture.PNG)
+![sample](capture.PNG)
 
 ## Built With
 - HTML & SCSS

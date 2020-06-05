@@ -1,4 +1,5 @@
 $redish:#ea463d;
+$smoke: rgb(240, 240, 240);
 
 #content {
   margin: 0 auto;
@@ -19,11 +20,11 @@ h2 {
 }
 
 a {
-  color: white;
+  color: $smoke;
   box-sizing: border-box;
 
   &:hover {
     color: $redish;
-    background-color: whitesmoke;
+    background-color: $smoke;
   }
 }

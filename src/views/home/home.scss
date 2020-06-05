@@ -1,14 +1,15 @@
+$fontwhite: rgb(255, 255, 255);
+
 .section-1 {
-  background: no-repeat center/50% url(/src/images/homepage.jpg);
+  background: no-repeat center/50% url("/src/images/homepage.jpg");
   background-repeat: no-repeat;
   background-position: cover;
   height: 70vh;
-  width: 100%;
   background-size: auto auto;
 
   h1 {
     font-family: Helvetica, sans-serif;
-    color: white;
+    color: $fontwhite;
     font-size: 50px;
     font-weight: 800;
     transform: translateY(80%);

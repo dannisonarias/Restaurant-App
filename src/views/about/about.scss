@@ -1,16 +1,18 @@
+$fontwhite: rgb(255, 255, 255);
+
 p {
-  color: white;
+  color: $fontwhite;
   font-family: Helvetica, sans-serif;
   margin: 25px 100px;
 }
 
 .section-3 {
-  background: no-repeat center/100% url(/src/images/about-us.jpg);
+  background: no-repeat center/100% url("/src/images/about-us.jpg");
   height: 70vh;
   width: 100%;
 
   h1 {
-    color: white;
+    color: $fontwhite;
     font-size: 100px;
   }
 }

@@ -1,7 +1,7 @@
 # Restaurant-App
 Restaurant App built using Tabbed navigations. Tabbed navigations are very useful when you need to organize a considerable amount of side content. It's very common to use tabs in a product page, for information like delivery options, product material info etc. Another use of tabs is in dashboards, where users need a quick way to switch from one panel to the other.
 # Screenshot
-![sample](capture.PNG)
+![sample](capture.png)
 
 ## Built With
 - HTML & SCSS

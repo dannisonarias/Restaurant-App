@@ -19,12 +19,12 @@ const display = () => {
   const evalutate = (element) => {
     if (element === 'home') {
       return home;
-    }
-    if (element === 'menu') {
+    } if (element === 'menu') {
       return menu;
+    } if (element === 'about') {
+      return about;
     }
-
-    return about;
+    return menu;
   };
 
   const renderDom = () => {

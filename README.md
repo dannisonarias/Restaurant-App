@@ -25,7 +25,7 @@ Restaurant App built using Tabbed navigations. Tabbed navigations are very usefu
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/dannisonarias/Javascript_Tic_Tac_Toe/issues).
+Feel free to check the [issues page](https://github.com/dannisonarias/Restaurant-App/issues).
 
 ## Show your support
 

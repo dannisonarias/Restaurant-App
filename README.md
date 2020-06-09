@@ -9,10 +9,6 @@ Restaurant App built using Tabbed navigations. Tabbed navigations are very usefu
 - JavaScript/ES6
 - Webpack
 
-## Usage
-1. Clone repository
-2. install dependencies `$ npx run build`
-
 ## Author
 
 👤 **Dannison Arias**

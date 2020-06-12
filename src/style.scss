@@ -1,0 +1,67 @@
+$redish:#ea463d;
+$smoke: rgb(240, 240, 240);
+$fontwhite: rgb(245, 245, 245);
+$blackish:rgba(31, 29, 29, 0.698);
+$fontstack: helvetica, sans-serif;
+
+#content {
+  background: no-repeat center/100% url("/src/images/main.jpg");
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+}
+
+#content2 {
+  height: 94vh;
+  background-color: rgba(75, 69, 69, 0.452);
+}
+
+h1 {
+  font-family: $fontstack;
+  color: $fontwhite;
+  font-size: 80px;
+  font-weight: 800;
+  transform: translateY(80%);
+}
+
+nav {
+  background-color: rgb(47, 47, 47);
+}
+
+h2 {
+  padding-right: 30px;
+}
+
+a {
+  color: $smoke;
+  box-sizing: border-box;
+
+  &:hover {
+    color: $redish;
+    background-color: $smoke;
+  }
+}
+
+.card {
+  font-family: $fontstack;
+  background-color: $blackish;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  color: $fontwhite;
+  margin: 5px auto;
+  transform: translateY(80%);
+}
+
+.card2 {
+  font-family: $fontstack;
+  background-color: $blackish;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  padding: 10px;
+  color: $fontwhite;
+  margin: 5px auto;
+  transform: translateY(80%);
+}
